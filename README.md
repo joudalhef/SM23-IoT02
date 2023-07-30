@@ -12,4 +12,6 @@ The TASK is How to connect more than one microcontroller with each other to tran
 4- 220 Ω Resistor (2)
 # Circuit
 ![Incredible Vihelmo](https://github.com/joudalhef/SM23-IoT02/assets/139080884/a3959eea-eebf-4c35-b15f-3ec645eaec40)
+# Start similation
+
 
