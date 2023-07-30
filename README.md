@@ -14,6 +14,39 @@ The TASK is How to connect more than one microcontroller with each other to tran
 ![Incredible Vihelmo](https://github.com/joudalhef/SM23-IoT02/assets/139080884/a3959eea-eebf-4c35-b15f-3ec645eaec40)
 # Start similation
 https://github.com/joudalhef/SM23-IoT02/assets/139080884/c9ad2930-8091-47e3-bd9e-b7c924a7f206
+# Code 
+Arduino Uno R3 (1)
+
+#include <Wire.h>
+
+int pushButton = A0;
+
+int x = 0;
+
+void setup()
+
+{
+
+  Wire.begin();
+  
+  pinMode(pushButton, INPUT);
+  
+}
+
+void loop()
+
+{
+
+   Wire.beginTransmission(1);
+   
+   x = digitalRead(pushButton);
+   
+   Wire.write(x);
+   
+   Wire.endTransmission();
+   
+   delay(500);
+}
 
 
 
