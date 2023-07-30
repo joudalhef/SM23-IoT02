@@ -12,7 +12,7 @@ The TASK is How to connect more than one microcontroller with each other to tran
 4- 220 Ω Resistor (2)
 # Circuit
 ![Incredible Vihelmo](https://github.com/joudalhef/SM23-IoT02/assets/139080884/a3959eea-eebf-4c35-b15f-3ec645eaec40)
-# Start similation
+# Start simulation
 https://github.com/joudalhef/SM23-IoT02/assets/139080884/c9ad2930-8091-47e3-bd9e-b7c924a7f206
 # Code Arduino Uno R3 (1)
 #include <Wire.h>
